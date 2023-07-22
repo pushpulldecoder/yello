@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IDv3Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-14T03:44:18" hostname="rits2" time="0.483">
+  <properties/>
+  <testcase name="wavFile_test[jvm]" classname="IDv3Test" time="0.483"/>
+  <system-out><![CDATA[Wav
+null
+xmpDM:audioSampleRate
+channels
+X-TIKA:Parsed-By
+X-TIKA:Parsed-By-Full-Set
+bits
+encoding
+xmpDM:audioSampleType
+Content-Type
+samplerate
+]]></system-out>
+  <system-err><![CDATA[Jul 13, 2023 11:44:18 PM org.jaudiotagger.audio.wav.WavInfoReader readChunk
+INFO: /home/pushpull/tmp/yelloTest/twav.wav Reading Chunk:fmt :starting at:12 (0x0c):sizeIncHeader:24
+Jul 13, 2023 11:44:18 PM org.jaudiotagger.audio.wav.WavInfoReader readChunk
+INFO: /home/pushpull/tmp/yelloTest/twav.wav Reading Chunk:data:starting at:36 (0x24):sizeIncHeader:17023528
+Jul 13, 2023 11:44:18 PM org.jaudiotagger.audio.wav.WavTagReader readChunk
+INFO: /home/pushpull/tmp/yelloTest/twav.wav Reading Chunk:fmt :starting at:12 (0x0c):sizeIncHeader:24
+Jul 13, 2023 11:44:18 PM org.jaudiotagger.audio.wav.WavTagReader readChunk
+INFO: /home/pushpull/tmp/yelloTest/twav.wav Reading Chunk:data:starting at:36 (0x24):sizeIncHeader:17023528
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+</testsuite>
